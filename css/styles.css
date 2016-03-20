@@ -162,6 +162,56 @@ p {
   white-space: nowrap;
 }
 
+.form h2 {
+  margin-bottom: 15px;
+}
+
+.form label {
+  float: left;
+  /* Helps Keep labels aligned to left */
+  width: auto;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+
+}
+
+
+.form input {
+  float: right;
+  margin-bottom: 20px;
+  margin-right
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.form form:first-of-type {
+  width: 300px;
+}
+
+.form .menu label {
+  text-align: center;
+  font-size: 1.3em;
+  float: left;
+  clear: left;
+}
+
+
+.form .menu select {
+  float: left;
+  clear: both;
+  padding: 5px;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+
+}
+
+.form .menu select:first-of-type {
+  color: grey;
+}
+
+
 footer {
   bottom: 0;
   left: 0;
