@@ -1,0 +1,179 @@
+
+
+body {
+  background-color: #473423
+
+}
+
+/* Inner Background */
+.content-all-inner {
+  background-color: #AC8B6F;
+background: rgba(71,52,35,1);
+background: -moz-linear-gradient(left, rgba(71,52,35,1) 0%, rgba(117,90,66,1) 8%, rgba(172,140,111,1) 50%, rgba(117,90,66,1) 92%, rgba(71,52,35,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(71,52,35,1)), color-stop(8%, rgba(117,90,66,1)), color-stop(50%, rgba(172,140,111,1)), color-stop(92%, rgba(117,90,66,1)), color-stop(100%, rgba(71,52,35,1)));
+background: -webkit-linear-gradient(left, rgba(71,52,35,1) 0%, rgba(117,90,66,1) 8%, rgba(172,140,111,1) 50%, rgba(117,90,66,1) 92%, rgba(71,52,35,1) 100%);
+background: -o-linear-gradient(left, rgba(71,52,35,1) 0%, rgba(117,90,66,1) 8%, rgba(172,140,111,1) 50%, rgba(117,90,66,1) 92%, rgba(71,52,35,1) 100%);
+background: -ms-linear-gradient(left, rgba(71,52,35,1) 0%, rgba(117,90,66,1) 8%, rgba(172,140,111,1) 50%, rgba(117,90,66,1) 92%, rgba(71,52,35,1) 100%);
+background: linear-gradient(to right, rgba(71,52,35,1) 0%, rgba(117,90,66,1) 8%, rgba(172,140,111,1) 50%, rgba(117,90,66,1) 92%, rgba(71,52,35,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473423', endColorstr='#473423', GradientType=1 );
+
+
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.content-all {
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.boxes p {
+  font-size: 1.4em;
+}
+
+.nav-wrap {
+  background: rgba(44,25,1,1);
+  background: -moz-linear-gradient(top, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(44,25,1,1)), color-stop(16%, rgba(44,25,1,1)), color-stop(100%, rgba(117,90,66,1)));
+  background: -webkit-linear-gradient(top, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
+  background: -o-linear-gradient(top, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
+  background: -ms-linear-gradient(top, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
+  background: linear-gradient(to bottom, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c1901', endColorstr='#755a42', GradientType=0 );
+
+}
+
+.navbar-default {
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
+
+/* Expresso Yourself Text top Navbar */
+.navbar-default .navbar-brand {
+  color: #f2f2f2;
+}
+
+/* Active Home tab nav Element */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #473423 ;
+  color: #f2f2f2;
+}
+
+/* Navigation Elements*/
+.navbar-default .navbar-nav>li>a {
+  color: #f2f2f2;
+  font-size: 1.2em;
+}
+
+/* Navigation Elements Hover */
+.navbar-default .navbar-nav>li>a:hover {
+  color: #f2f2f2;
+  font-size: 1.2em;
+  background-color: #755A42;
+}
+
+.center-col {
+    float: none;
+    margin: 0 auto;
+}
+
+/* Information Boxes */
+.boxes {
+  border: 1px solid black;
+  height: 325px;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: rgba(211, 197, 176, 0.4);
+}
+
+.btn {
+  background-color: #473423;
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #f2f2f2;
+
+}
+
+.btn:hover {
+  background-color: #755A42;
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #f2f2f2;
+
+}
+
+.learn-more {
+  background-color: #755A42;
+  color: default;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.learn-more:hover {
+  background-color: #AC8B6F;
+  color: default;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Register Button */
+.register {
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+
+.jcarousel-wrapper {
+  border: none;
+  background-color: #AC8B6F;
+  padding: 5px;
+  height: 410px;
+}
+
+.dark-roast-blend {
+  height: 100%;
+  height: auto;
+  background-color: rgba(211, 197, 176, 0.4);
+}
+
+/* Dark Roast Image */
+.dark-roast {
+  width: 125px;
+  border-radius: 50%;
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+
+}
+
+.center > * {
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 0 30px 0;
+  padding: 10px;
+  background: white;
+  white-space: nowrap;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-right: 10px;
+  background-color: rgba(107,106,106,0.3);
+  position: fixed;
+}
+
+footer p {
+  text-align: right;
+  padding: 20px;
+  font-size: 1.1em;
+  margin: 0;
+}
