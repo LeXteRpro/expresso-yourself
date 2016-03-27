@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Expresso Yourself</title>
+	<title role="banner">Expresso Yourself</title>
 
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
-
 
 	<link rel="stylesheet" type="text/css" href="css/jcarousel.basic.css">
 	<script type="text/javascript" src="scripts/lib/jquery.js"></script>
@@ -23,8 +23,7 @@
 </head>
 <body>
 
-
-	<div class="nav-wrap">
+	<section class="nav-wrap">
 		<!-- Static navbar -->
 		<nav class="navbar navbar-default navbar-static-top">
 			<div class="container">
@@ -40,17 +39,8 @@
 			</div>
 		</nav>
 
-		<nav class="navbar navbar-default navbar-static-top">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">
 			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#"><img src="" alt=""></a>
-				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#">Home</a></li>
@@ -65,17 +55,16 @@
 						<li><a href="../navbar-fixed-top/">Contact</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
-			</div>
-		</nav>
-	</div> <!-- Close Nav Wrap-->
+			</div> <!-- Close Container -->
+		</nav> <!-- Close Navigation -->
+	</section> <!-- Close Nav Wrap-->
 
-	<section class="row-fluid content-all">
+	<section role="main" aria-labelledby="mainPageContent" class="row-fluid content-all">
 		<section class="col-md-8 col-md-offset-2 content-all-inner">
 
-
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="jcarousel-wrapper">
+			<article class="row">
+				<section class="col-md-8 col-md-offset-2">
+					<section class="jcarousel-wrapper">
 						<div class="jcarousel">
 							<ul>
 								<li><img src="img/coffee-web2.jpg" width="800" height="400" alt=""></li>
@@ -83,8 +72,7 @@
 								<li><img src="img/coffee-web3.jpg" width="800" height="400" alt=""></li>
 								<li><img src="img/coffee-web4.jpg" width="800" height="400" alt=""></li>
 							</ul>
-						</div>
-
+						</div> <!-- Close Carousel -->
 
 						<a href="#" class="jcarousel-control-prev">&lsaquo;</a>
 						<a href="#" class="jcarousel-control-next">&rsaquo;</a>
@@ -92,50 +80,50 @@
 						<p class="jcarousel-pagination">
 
 						</p>
-					</div>
-				</div><!-- Close Column-->
+					</section> <!-- Close Carrousel Wrapper -->
+				</section><!-- Close Column-->
 
-				<div class="col-md-2"></div>
+				<section class="col-md-2"></section>
 
-			</div> <!-- Close Row -->
+			</article> <!-- Close Row -->
 
 
-			<div class="row">
-				<div class="col-md-4 col-md-offset-2 boxes">
+			<article class="row">
+				<section class="col-md-4 col-md-offset-2 boxes">
 					<h1>Nutrition and Wellness</h1>
 					<p>At <em>Expresso Yourself</em> we believe balance is an important part of living well - that eating well and sometimes treating yourself can, and should, go together.</p>
 					<button type="button" class="btn ">Nutritional Information</button>
 
 					<button type="button" class="btn learn-more">Learn More</button>
-				</div>
+				</section>
 
-				<div class="col-md-4 boxes">
+				<section class="col-md-4 boxes">
 					<h1>Sign Up for our Email Newsletter</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus labore distinctio rerum repellat harum, ea, qui nostrum tempora atque voluptatibus alias perferendis ipsam, omnis.</p>
 
 					<div class="col-md-2 register">
 						<button type="button" class="btn">Register</button>
 					</div>
-				</div>
+				</section>
 
-				<div class="col-md-2">
+				<section class="col-md-2">
 					
-				</div>
-			</div> <!-- Close Row Inner-->
+				</section>
+			</article> <!-- Close Row Inner-->
 
 
 
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 dark-roast-blend">
+			<article class="row">
+				<section class="col-md-8 col-md-offset-2 dark-roast-blend">
 
-					<div class="row">
-						<div class="col-md-2 col-md-offset-1">
+					<section class="row">
+						<section class="col-md-2 col-md-offset-1">
 							<div>
 								<img src="img/dark-roast.png" alt="Dark Roast" class="dark-roast">
 							</div>
-						</div>
+						</section>
 
-						<div class="col-md-7 col-md-offset-1">
+						<section class="col-md-7 col-md-offset-1">
 							<div>
 								<h1>Dark Roast Blend</h1>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta natus asperiores expedita nesciunt beatae libero maiores ab iste repudiandae, autem, quidem aliquam tenetur, rem. Consequatur.</p>
@@ -144,124 +132,183 @@
 							<div class="">
 								<button type="button" class="btn">Order Now</button>
 							</div>
-						</div> <!-- Close Column -->
+						</section> <!-- Close Column -->
 
-						<div class="col-md-2"></div>
-					</div> <!-- Close Row Double Inner -->
-				</div><!-- Close Main COlumn-->
+						<section class="col-md-2"></section>
+					</section> <!-- Close Row Double Inner -->
+				</section><!-- Close Main COlumn-->
 				<!-- Final two columns of main row-->
-				<div class="col-md-2"></div>
-			</div> <!-- Close Row Inner-->
+				<section class="col-md-2"></section>
+			</article> <!-- Close Row Inner-->
 
+			<article class="row form">
 
-
-			<div class="row form">
-				<div class="col-md-4 col-md-offset-2 menu">
-					<h2>Restaurant Locations</h2>
-					<form>
+				<section class="col-md-4 col-md-offset-2 menu form-comments">
+					<h2>Your Message</h2>
+					<div role="form" aria-labelledby="comments" >
 						<label>Your Name</label>
-						<input type="text" name="province" id="province" placeholder="Enter Name">
+						<input type="text" name="province" id="province" role="alert" aria-label="Name" contenteditable="true" placeholder="Enter Name">
+
 						<br />
 						<label>Your Email</label>
-						<input type="text" name="postal-code" id="postal-code" placeholder="Enter Email">
+						<input type="text" name="postal-code" id="postal-code" role="alert" aria-label="Email" placeholder="Enter Email">
 						<br />
 						<label>Message</label>
-						<input type="textarea" name="message" id="message" placeholder="Your Message">
-					</form>
+						<textarea rows="4" cols="40" name="message" id="message" role="alert" aria-label="Message" placeholder="Your Message"></textarea>
 
-				</div> <!-- Close Column -->
+						<button role="button">Send Message</button>
 
-			
-	<h2>Our Menu</h2>
-				<div class="col-md-1 menu">
-						<form>
-						<label>Food</label>
-							<select name="Search Food">
-								<option>Search Food</option>
-								<option>Sandwiches</option>
-								<option>Donut</option>
-								<option>Muffins</option>
-								<option>Cookies</option>
-							</select>
+					</div> <!-- Close Comments Form -->
+				</section> <!-- Close Column -->
 
+				<section class="col-md-4">
+
+					<section class="row menu menu-locations">
+
+						<section class="col-md-6">
+							
+							<h2>Menu</h2>
+
+							<div role="form" aria-labelledby="Food">
+								<label>Food</label>
+								<select name="Search Food">
+									<option>Search Food</option>
+									<option>Sandwiches</option>
+									<option>Donut</option>
+									<option>Muffins</option>
+									<option>Cookies</option>
+								</select>
+								<button type="submit">Find</button>
+							</div> <!-- Close Food Form -->
 							<br />
 
-						<label>Region</label>
-							<select name="Search Food">
-								<option>Province</option>
-								<option>Alberta</option>
-								<option>British Columbia</option>
-								<option>Saskatchewan</option>
-								<option>Ontario</option>
-								<option>Manitoba</option>
-								<option>Quebec</option>
-							</select>
+							<div role="form" aria-labelledby="Drinks">
+								<label>Drinks</label>
+								<select>
+									<option>Search Drinks</option>
+									<option>Sandwiches</option>
+									<option>Donut</option>
+									<option>Muffins</option>
+									<option>Cookies</option>
+								</select>
 
-						</form>
-				</div>
+								<button role="button">Find</button>
 
-				<div class="col-md-1"></div>
+								<br />
 
-			<div class="col-md-1 menu">
-						<form>
+								<h3>Results</h3>
 
-						<label>Drinks</label>
-							<select>
-								<option>Search Drinks</option>
-								<option>Sandwiches</option>
-								<option>Donut</option>
-								<option>Muffins</option>
-								<option>Cookies</option>
-							</select>
+							</div> <!-- Close Drinks Form -->
 
+						</section> <!-- Close Inner Colum-->
 
-					<br />
-					<br />
+						<section class="col-md-6">
 
+							<h2>Locations</h2>
+							<form>
+								<label>Region</label>
+								<select name="Search Food">
+									<option>Province</option>
+									<option>Alberta</option>
+									<option>British Columbia</option>
+									<option>Saskatchewan</option>
+									<option>Ontario</option>
+									<option>Manitoba</option>
+									<option>Quebec</option>
+								</select>
 
-						<label>Country</label>
-							<select name="Search Food">
-								<option>Canada</option>
-								<option>United States</option>
-								<option>Europe</option>
-								<option>Australia</option>
-								<option>China</option>
-							</select>
-						</form>
-				</div> <!-- Close Column -->
-				<div class="col-md-3"></div>
-			</div> <!-- Close Row -->
+								<br />
+								<br />
 
-		</form>
-	</div> <!-- Close Column-->
-</div> <!-- Close Row -->
+								<label>Country</label>
+								<select name="Search Food">
+									<option>Canada</option>
+									<option>United States</option>
+									<option>Europe</option>
+									<option>Australia</option>
+									<option>China</option>
+								</select>
+							</form>
 
+							<button role="button">Search</button>
 
+							<h3>Results</h3>
 
-</section><!-- Close Column -->
+						</section> <!-- Close Column -->
 
-<section class="col-md-2"></section>
+					</section> <!-- Close Inner Row -->
 
-</section> <!-- Page Content-All / Row -->
+				</section> <!-- Close Entire Colum-->
 
-<footer>
-	<p>&copy Copyright Expresso Yourself Inc.</p>
-</footer>
+				<section class="col-md-2"></section>
 
-
+			</article> <!-- Close Row -->
 
 
 
+			<article class="row social-media">
+				<section class="col-md-2 col-md-offset-2">
+					<img src="img/coffee-web.jpg" alt="" height="100" width="100">
+				</section>
+
+				<section class="col-md-3">
+				<h3>Pay With Your Phone!</h3>
+					<button type="">Get From App Store!</button>
+					<button type="">Get From Google Play!</button>
+				</section>
+
+				<section class="col-md-3">
+					<h3>Stay Connected!</h3>
+
+					<ul>
+						<li><i class="fa fa-facebook-official"></i>
+						<li><i class="fa fa-instagram"></i></li>
+						<li><i class="fa fa-twitter-square"></i></li>
+
+					</ul>
+					
+				</section>
+
+				<section class="col-md-2"></section>
+
+			</article> <!-- Close Row -->
+
+		</section><!-- Close Column -->
+
+		<section class="col-md-2"></section>
+
+	</section> <!-- Page Content-All / Row -->
+
+	<footer>
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">Coffee</a></li>
+						<li><a href="#contact">Menu</a></li>
+						<li><a href="#contact">Promos</a></li>
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../navbar/">Shop</a></li>
+						<li><a href="./">Search</a></li>
+						<li><a href="../navbar-fixed-top/">Contact</a></li>
+						<li><p>&copy Copyright Expresso Yourself Inc.</p></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div> <!-- Close Container -->
+		</nav> <!-- Close Navigation -->
+
+	</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
 
 
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-
-
-<script src="scripts/lib/jquery-2.2.2.min.js"></script>
+	<script src="scripts/lib/jquery-2.2.2.min.js"></script>
 
 
 </body>

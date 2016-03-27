@@ -24,6 +24,27 @@ p {
   font-size: 1.2em;
 }
 
+.social-media ul li {
+   list-style-type: none;
+   font-size: 3.5em;
+   display: inline-block;
+   padding-right: 10px;
+}
+
+ul li:last-of-type {
+  padding: 0;
+}
+
+.social-media button {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.social-media h3 {
+  text-align: center;
+}
+
 .content-all {
   margin-bottom: 100px;
   overflow: hidden;
@@ -34,15 +55,14 @@ p {
 }
 
 .nav-wrap {
-  background: rgba(44,25,1,1);
-  background: -moz-linear-gradient(top, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(44,25,1,1)), color-stop(16%, rgba(44,25,1,1)), color-stop(100%, rgba(117,90,66,1)));
-  background: -webkit-linear-gradient(top, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
-  background: -o-linear-gradient(top, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
-  background: -ms-linear-gradient(top, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
-  background: linear-gradient(to bottom, rgba(44,25,1,1) 0%, rgba(44,25,1,1) 16%, rgba(117,90,66,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c1901', endColorstr='#755a42', GradientType=0 );
-
+background: rgba(8,7,8,1);
+background: -moz-linear-gradient(top, rgba(8,7,8,1) 0%, rgba(71,52,35,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(8,7,8,1)), color-stop(100%, rgba(71,52,35,1)));
+background: -webkit-linear-gradient(top, rgba(8,7,8,1) 0%, rgba(71,52,35,1) 100%);
+background: -o-linear-gradient(top, rgba(8,7,8,1) 0%, rgba(71,52,35,1) 100%);
+background: -ms-linear-gradient(top, rgba(8,7,8,1) 0%, rgba(71,52,35,1) 100%);
+background: linear-gradient(to bottom, rgba(8,7,8,1) 0%, rgba(71,52,35,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080708', endColorstr='#473423', GradientType=0 );
 }
 
 .navbar-default {
@@ -54,11 +74,12 @@ p {
 /* Expresso Yourself Text top Navbar */
 .navbar-default .navbar-brand {
   color: #f2f2f2;
+  margin-bottom: 10px;
 }
 
 /* Active Home tab nav Element */
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #473423 ;
+  background-color: #473423;
   color: #f2f2f2;
 }
 
@@ -166,6 +187,10 @@ p {
   margin-bottom: 15px;
 }
 
+.form h3 {
+  clear: left;
+}
+
 .form label {
   float: left;
   /* Helps Keep labels aligned to left */
@@ -204,11 +229,45 @@ p {
   padding: 5px;
   font-size: 1.3em;
   margin-bottom: 15px;
-
 }
+
 
 .form .menu select:first-of-type {
   color: grey;
+}
+
+.form .menu button {
+  float: left;
+  clear: both;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+/* Entire Form Row */
+.menu {
+  margin-top: 15px;
+  border: 1px solid black;
+  height: 400px;
+
+}
+
+/* Form - Just Comments Section */
+.form-comments {
+  background-color: rgba(211, 197, 176, 0.4);
+
+}
+
+/* Form - Just Menu Section*/
+.menu-locations {
+  background-color: rgba(211, 197, 176, 0.4);
+  margin-left: 10px;
+
+}
+
+
+
+.form-titles {
+  margin-bottom: 15px;
 }
 
 
@@ -217,7 +276,7 @@ footer {
   left: 0;
   right: 0;
   padding-right: 10px;
-  background-color: rgba(107,106,106,0.3);
+  background-color: rgba(107,106,106,0.5);
   position: fixed;
 }
 
@@ -226,4 +285,8 @@ footer p {
   padding: 20px;
   font-size: 1.1em;
   margin: 0;
+  margin-left: 15px;
+  color: #f2f2f2;
+  padding: 15px;
+  float: right;
 }
